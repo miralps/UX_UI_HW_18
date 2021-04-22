@@ -32,9 +32,9 @@ body {
     float: right;
   }
 
-.heroText{
-    /*height: 600px;
-    padding: 25px;*/
+/*.heroText{
+    height: 600px;
+    padding: 25px;
     width:100%;
     
     
@@ -49,7 +49,7 @@ body {
     padding-top: 5%;
     padding-bottom:0;
     width: 50%;
-}
+}*/
 
 .heroContent h2{
     font-family: Montserrat;
@@ -72,7 +72,7 @@ body {
     align-items: center;
 }
 
-.studyContainer{
+/*.studyContainer{
     width: 100%;
     height: 100%;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .categoryStudy{
-    width: 2000px;
+    width: 90%;
     height: 400px;
     background-color:#CEC8C8;
     border-radius: 8px;
@@ -95,59 +95,37 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-
-/*#study1{
-    /*position: absolute;
-    padding:5%;
-    left: 138px;
-    top: 400px;
-    width: 2000px;
-    height: 400px;
-    background-color:#CEC8C8;
-    border-radius: 8px;
-   
-}
-
-#study2{
-    /*position: absolute;
-    padding:5%;
-    left: 138px;
-    top: 1156px;
-    width: 2000px;
-    height: 400px;
-    background-color:#CEC8C8;
-    border-radius: 8px;
-    
-}
-
-#study3{
-    /*position: absolute;
-    padding: 5%;
-    left: 138px;
-    top: 1673px;
-    width: 2000px;
-    height: 400px;
-    background-color:#CEC8C8;
-    border-radius: 8px;
-    
 }*/
 
-.heading{
-    padding:8%;
-}
 
-button{
+
+
+/*.heading{
+    padding:8%;
+}*/
+
+/*button{
     float:right;
-    /*left: 77.92%;
-    right: 10%;
-    top: 69.42%;
-    bottom: 23.79%;
-    padding: 5%;*/
     height: 45px;
     width: 150px;
     
+}*/
+
+.flexContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.flexContainer div{
+    width: 33%;
+    margin: 10%;
+    padding: 10%;
+}
+
+.workGrid{
+    display: grid;
 }
 
 footer{
@@ -190,5 +168,40 @@ nav{
     margin-left: auto;
 
 }
-*/
+
+/*#study1{
+    /*position: absolute;
+    padding:5%;
+    left: 138px;
+    top: 400px;
+    width: 2000px;
+    height: 400px;
+    background-color:#CEC8C8;
+    border-radius: 8px;
+   
+}
+
+#study2{
+    /*position: absolute;
+    padding:5%;
+    left: 138px;
+    top: 1156px;
+    width: 2000px;
+    height: 400px;
+    background-color:#CEC8C8;
+    border-radius: 8px;
+    
+}
+
+#study3{
+    /*position: absolute;
+    padding: 5%;
+    left: 138px;
+    top: 1673px;
+    width: 2000px;
+    height: 400px;
+    background-color:#CEC8C8;
+    border-radius: 8px;
+    
+}*/
 
